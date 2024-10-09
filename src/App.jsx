@@ -1,7 +1,7 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { CustomerReviews, Footer, Hero, MoreInfonWebs, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality } from "./sections";
 import Nav from "./components/Nav";
-import MenuSection from "./sections/MenuSection.JSX";
+import MenuSection from "./sections/MenuSection";
 import MoreInfoBranding from "./sections/MoreInfoBranding";
 
 const App = () => {
