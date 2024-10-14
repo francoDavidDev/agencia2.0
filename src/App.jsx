@@ -3,6 +3,7 @@ import { CustomerReviews, Footer, Hero, MoreInfonWebs, PopularProducts, Services
 import Nav from "./components/Nav";
 import MenuSection from "./sections/MenuSection";
 import MoreInfoBranding from "./sections/MoreInfoBranding";
+import WebComerciantes from "./sections/WebComerciantes";
 
 const App = () => {
   return (
@@ -19,11 +20,15 @@ const App = () => {
                 <PopularProducts />
               </section>
               <section className="padding bg-pale-black">
-                <SuperQuality />
+                <WebComerciantes />
               </section>
               <section className="padding-x py-10 bg-pale-black">
                 <Services />
               </section>
+              <section className="padding bg-pale-black">
+                <SuperQuality />
+              </section>
+            
               <section className="padding bg-pale-black">
                 <SpecialOffer />
               </section>

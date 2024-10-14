@@ -1,5 +1,5 @@
 import React from "react"
-import { offer } from "../assets/images"
+import { brandingImg } from "../assets/images"
 import Button from "../components/Button"
 import { arrowRight } from "../assets/icons"
 
@@ -7,7 +7,7 @@ const SpecialOffer = () => {
   return (
     <section className="flex justify-wrap items-center pt-20  max-xl:flex-col-reverse gap-10 max-container">
      <div className="flex-1">
-        <img src={offer} width={773} height={687} 
+        <img src={brandingImg} width={773} height={687} 
         className="object-contain w-full"/>
      </div>
      <div className="flex flex-1 flex-col">
@@ -26,7 +26,7 @@ const SpecialOffer = () => {
         </p>
 
         <div className="mt-11 flex flex-wrap gap-4">
-         <Button label='Ver Detalles' />
+         <Button label='Contactanos' path={'https://www.instagram.com/visibilidadweb/?hl=es-la'} />
 
          <Button label='Saber Más'
           backgroundColor='bg-white'

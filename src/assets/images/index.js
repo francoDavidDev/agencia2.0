@@ -21,6 +21,12 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
+import pageBussines from '../works/famf.png'
+
+import brandingImg from './brandingImg.png'
+
+
+
 export {
     bigShoe1,
     bigShoe2,
@@ -43,4 +49,6 @@ export {
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,
+    brandingImg,
+    pageBussines
 }

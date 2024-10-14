@@ -21,6 +21,11 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
+import {
+  pageBussines
+} from "../assets/works";
+
+
 export const navLinks = [
   { href: "#home", label_english: "Home", label_spanish: "Inicio" },
   {
@@ -33,8 +38,8 @@ export const navLinks = [
 ];
 export const shoes = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: pageBussines,
+    bigShoe: pageBussines,
   },
   {
     thumbnail: thumbnailShoe2,
