@@ -21,21 +21,34 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
-import {
-  pageBussines
-} from "../assets/works";
-
+import { pageBussines } from "../assets/works";
 
 export const navLinks = [
-  { href: "#home", label_english: "Home", label_spanish: "Inicio" },
+  { href: "/home", label_english: "Home", label_spanish: "inicio" ,name:'inicio' },
   {
     href: "#about-us",
     label_english: "About Us",
     label_spanish: "Sobre Nosotros",
+    name:'nosotros'
   },
-  { href: "#products", label_english: "Services", label_spanish: "Servicios" },
-  { href: "#contact-us", label_english: "Contact Us", label_spanish: "Inicio" },
+  { href: "#staff", label_english: "staff", label_spanish: "integrantes",name:'integrantes' },
+  { href: "#newsletter", label_english: "newsletter", label_spanish: "newsletter",name:'newsletter' },
+  {
+  servicios:[
+  
+    { href: "#webs", label_english: "webs", label_spanish: "webs", name:'webs' },
+    { href: "#bussines-web", label_english: "bussines-web", label_spanish: "web comerciantes" ,name:'web_comerciantes'},
+  
+    { href: "#comunity-manager", label_english: "comunity manager", label_spanish: "comunity manager",name:'comunity_manager' },
+    { href: "#branding", label_english: "branding", label_spanish: "branding",name:'branding' },
+    { href: "#menus", label_english: "menus", label_spanish: "menus",name:'menus' },
+ 
+  ]},
+ 
+  { href: "#footer", label_english: "contact", label_spanish: "contacto",name:'contacto' },
 ];
+
+
 export const shoes = [
   {
     thumbnail: pageBussines,
@@ -69,7 +82,7 @@ export const products = [
     imgURL: coffeShop,
     name: "Web Comerciantes",
     price: "$50.000",
-   
+
     services: null,
   },
   {
@@ -119,7 +132,7 @@ export const products = [
     imgURL: famf,
     name: "Web Empresarial",
     price: "$300.000",
- 
+
     services: [
       "Hosting 1 año.",
       "Dominio 1 año.",
@@ -144,7 +157,7 @@ export const products = [
   {
     name: "Menu´s (Para comercio de comida)  ",
     price: "$100.000",
-  
+
     imgURL: menu,
     services: [
       "Personalización especial.",
@@ -161,7 +174,8 @@ export const products = [
       "+ 5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    message: "¡Hola! estoy interesado/a  por el Menu Único. ¿Podrías darme más información? ",
+    message:
+      "¡Hola! estoy interesado/a  por el Menu Único. ¿Podrías darme más información? ",
   },
 ];
 

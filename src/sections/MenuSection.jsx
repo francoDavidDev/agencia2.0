@@ -4,7 +4,7 @@ import menuImage from "../assets/works/menu-image.png"; // Cambiar por una image
 
 const MenuSection = () => {
   return (
-    <section id="about-us" className="flex justify-between flex-row-reverse items-center max-lg:flex-col gap-10 w-full max-container">
+    <section id="menus" className="flex justify-between flex-row-reverse items-center max-lg:flex-col gap-10 w-full max-container">
       <div className="flex flex-1 flex-col">
         <h2 className="mt-10 font-palanquin capitalize text-primary text-4xl font-bold lg:max-w-lg">
           Menú web <span className="text-sky-blue">de calidad</span>
@@ -16,13 +16,13 @@ const MenuSection = () => {
           Con nuestros menús web optimizados, no solo modernizas tu negocio, sino que también aumentas tus ventas y visibilidad en línea, brindando una experiencia profesional y eficiente a tus clientes.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Contáctanos"  />
-          <Button
+        <Button label='Contactanos' path={'https://www.instagram.com/visibilidadweb/?hl=es-la'} />
+        <Button
             label="Saber más"
             backgroundColor="bg-white"
             borderColor="border-sky-blue"
             textColor="text-sky-blue"
-            path ='/MoreInfoWebs'
+            path ='/MoreInfoMenus'
           />
         </div>
       </div>

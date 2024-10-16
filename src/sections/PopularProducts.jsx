@@ -4,7 +4,7 @@ import PopularProductCard from "../components/PopularProductCard";
 
 function PopularProducts() {
   return (
-    <section id="products" className="max-container max-sm:mt-12 ">
+    <section id="webs" className="max-container max-sm:mt-12 ">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold text-primary">
           NUESTROS

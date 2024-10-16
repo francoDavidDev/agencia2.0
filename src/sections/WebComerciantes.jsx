@@ -4,7 +4,7 @@ import { coffeeShop } from "../assets/works"
 
 const WebComerciantes = () => {
   return (
-    <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
+    <section id="web_comerciantes" className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
       <div className="flex flex-1 flex-col">
         <h2 className="mt-10 font-palanquin capitalize text-primary text-4xl font-bold lg:max-w-lg">
           Webs

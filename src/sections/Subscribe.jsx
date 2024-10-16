@@ -5,7 +5,7 @@ const Subcribe = () => {
   return (
     <section
       className="max-container bg-red flex justify-between items-center max-lg:flex-col gap-10"
-      id="contact-us"
+      id="newsletter"
     >
       <h3 className="text-4xl leanding-[68px] text-primary lg:max-w-md font-palanquin font-bold ">
         Regístrate para <span className="text-sky-blue">Actualizaciones</span> &

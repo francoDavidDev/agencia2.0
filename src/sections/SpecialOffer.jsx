@@ -5,7 +5,7 @@ import { arrowRight } from "../assets/icons"
 
 const SpecialOffer = () => {
   return (
-    <section className="flex justify-wrap items-center pt-20  max-xl:flex-col-reverse gap-10 max-container">
+    <section id="branding" className="flex justify-wrap items-center pt-20  max-xl:flex-col-reverse gap-10 max-container">
      <div className="flex-1">
         <img src={brandingImg} width={773} height={687} 
         className="object-contain w-full"/>
