@@ -17,7 +17,7 @@ const FaqComercialWebsite = () => {
       className=" 
  h-auto"
     >
-      <div className="max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center h-auto lg:pt-6  ">
+      <div className="max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center h-auto   ">
         {/*  section title */}
         <div
           name="preguntas"
@@ -27,7 +27,7 @@ const FaqComercialWebsite = () => {
           data-aos-delay="200"
         >
           {/*<img className='lg:hidden ' src={icon} alt="" />*/}
-          <h5 className=" text-primary  mx-auto text-2xl sm:text-3xl py-5 uppercase font-semibold text-center ">{title} </h5>
+          <h5 className=" text-sky-blue  mx-auto text-2xl sm:text-3xl pb-5 uppercase font-semibold text-center ">{title} </h5>
         </div>
         {/* acordion list */}
         <div

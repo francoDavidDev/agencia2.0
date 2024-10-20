@@ -19,24 +19,31 @@ const Hero = () => {
         <p className="text-xl font-montserrat text-sky-blue">
           Creciendo con contenido digital
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl mx-sm:text-[72px] max-sm:leading-[82px] font-bold">
+        <h1 className="mt-10 font-palanquin text-8xl mx-sm:text-[72px] max-sm:leading-[82px] font-bold z-100 ">
           <span className="xl:bg-pale-black text-white xl:whitespace-nowrap relative z-10 pr-10">
             Visibilidad Web
           </span>
-          <br />
-          <span className="text-sky-blue  inline-block mt-3">A.</span>
-          <span className="text-white"> Digital</span>
+          
         </h1>
-        <p className="font-montserrat text-sky-blue  text-lg leanding-8 mt-6 mb-14 sm:max-w-sm">
+        <p className="font-montserrat text-sky-blue   text-lg leanding-8 mt-14 mb-14 sm:max-w-sm">
           Supervise sus redes, contenido y negocio para facturar en plataformas
           digitales.
         </p>
-        <Button label="Empeza Ahora" iconURL={arrowRight} />
+    
+      
+        <button
+          // Añadimos el evento onClick
+            className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-sky-blue text-white rounded-full hover:text-sky-blue hover:bg-white hover:border-sky-blue"
+          >
+            Saber más
+           <img src={arrowRight} alt="" />
+
+          </button>
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index.label}>
-              <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
+              <p className="text-4xl font-palanquin font-bold text-primary">{stat.value}</p>
               <p className="leanding-7 font-montserrat text-sky-blue">
                 {" "}
                 {stat.label}{" "}

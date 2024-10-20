@@ -26,8 +26,8 @@ const App = () => {
             path="/"
             element={
               <>
-                <section className="xl:padding-1 wide:padding-r padding-b bg-pale-black">
-                  <Hero />
+<section className="xl:p-1 wide:pr-4 pb-4 bg-pale-black">
+<Hero />
                 </section>
                 {/* seccion web */}
                 <section className="padding bg-pale-black">
@@ -64,14 +64,11 @@ const App = () => {
                 </section>
                 
                 {/* seccion  newsletter */}
-                <section className="padding-x sm:py-32 py-16 w-full bg-pale-black">
+               { /*<section className="padding-x sm:py-32 py-16 w-full bg-pale-black">
                   <Subscribe />
-                </section>
+                </section>*/}
                 
-                {/* seccion footer */}
-                <section className="padding-x padding-t pb-8 bg-pale-black">
-                  <Footer />
-                </section>
+              
               </>
             }
           />
@@ -114,6 +111,10 @@ const App = () => {
             }
           />
         </Routes>
+          {/* seccion footer */}
+          <section className="padding-x padding-t pb-8 bg-pale-black">
+                  <Footer />
+                </section>
       </main>
     </Router>
   );

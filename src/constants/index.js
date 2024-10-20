@@ -24,26 +24,12 @@ import {
 import { pageBussines } from "../assets/works";
 
 export const navLinks = [
-  { href: "/home", label_english: "Home", label_spanish: "inicio" ,name:'inicio' },
-  {
-    href: "#about-us",
-    label_english: "About Us",
-    label_spanish: "Sobre Nosotros",
-    name:'nosotros'
-  },
-  { href: "#staff", label_english: "staff", label_spanish: "integrantes",name:'integrantes' },
-  { href: "#newsletter", label_english: "newsletter", label_spanish: "newsletter",name:'newsletter' },
-  {
-  servicios:[
-  
-    { href: "#webs", label_english: "webs", label_spanish: "webs", name:'webs' },
-    { href: "#bussines-web", label_english: "bussines-web", label_spanish: "web comerciantes" ,name:'web_comerciantes'},
-  
-    { href: "#comunity-manager", label_english: "comunity manager", label_spanish: "comunity manager",name:'comunity_manager' },
-    { href: "#branding", label_english: "branding", label_spanish: "branding",name:'branding' },
-    { href: "#menus", label_english: "menus", label_spanish: "menus",name:'menus' },
- 
-  ]},
+  { href: "/", label_english: "Home", label_spanish: "inicio" ,name:'inicio' },
+  { href: "#services", label_english: "services", label_spanish: "servicios", name:'servicios' },
+
+
+  { href: "#staff", label_english: "staff", label_spanish: "Sobre Nosotros",name:'integrantes' },
+
  
   { href: "#footer", label_english: "contact", label_spanish: "contacto",name:'contacto' },
 ];
@@ -65,9 +51,9 @@ export const shoes = [
 ];
 
 export const statistics = [
-  { value: "", label: "Desarrollo web" },
-  { value: "", label: "Branding" },
-  { value: "", label: "Seo" },
+  { value: "+10", label: "Desarrollo web" },
+  { value: "+5", label: "Branding" },
+  { value: "+3", label: "Seo" },
 ];
 
 import coffeShop from "../assets/works/coffeeShop.png";
@@ -78,13 +64,7 @@ import famf from "../assets/works/famf.png";
 import menu from "../assets/works/menu-card.png";
 
 export const products = [
-  {
-    imgURL: coffeShop,
-    name: "Web Comerciantes",
-    price: "$50.000",
 
-    services: null,
-  },
   {
     imgURL: travelWeb,
     name: "Web Basica",
@@ -154,7 +134,7 @@ export const products = [
       "Tiempo de entrega acordado.",
     ],
   },
-  {
+   /* {
     name: "Menu´s (Para comercio de comida)  ",
     price: "$100.000",
 
@@ -176,37 +156,51 @@ export const products = [
     ],
     message:
       "¡Hola! estoy interesado/a  por el Menu Único. ¿Podrías darme más información? ",
-  },
+} */
 ];
 
 export const services = [
   {
-    imgURL: truckFast, // Manteniendo la imagen original
+    imgURL: null, // Manteniendo la imagen original
     label: "SEO y Desarrollo Web",
     subtext:
       "Optimización de motores de búsqueda y desarrollo de páginas web para mejorar tu visibilidad y presencia en línea.",
+    name:'webs'
   },
   {
-    imgURL: shieldTick, // Manteniendo la imagen original
+    imgURL: null, // Manteniendo la imagen original
     label: "Community Manager",
     subtext:
       "Gestión de redes sociales para potenciar la interacción y fortalecer tu presencia digital.",
+      name:'comunity_manager'
   },
   {
-    imgURL: support, // Manteniendo la imagen original
+    imgURL: null, // Manteniendo la imagen original
     label: "Logos y Branding",
     subtext:
       "Diseño de logos y creación de identidad visual que refleja la esencia de tu marca.",
+      name:'branding'
   },
+  {
+    imgURL: null, // Manteniendo la imagen original
+    label: "Webs para comerciantes",
+    subtext:
+      "Diseño de logos y creación de identidad visual que refleja la esencia de tu marca.",
+      name:'web_comerciantes'
+  },
+  {
+    imgURL: null, // Manteniendo la imagen original
+    label: "Menus para Restaurants",
+    subtext:
+      "Diseño de logos y creación de identidad visual que refleja la esencia de tu marca.",
+      name:'menus'
+  },
+
+
 ];
 
 export const reviews = [
-  {
-    imgURL: customer1,
-    customerName: "Valeria",
-    rating: 4.5,
-    feedback: "Comunity Manager / Diseñador Grafico",
-  },
+
   {
     imgURL: customer2,
     customerName: "Rodrigos Piriz",

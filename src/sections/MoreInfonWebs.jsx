@@ -7,24 +7,12 @@ import FaqComercialWebsite from "../components/FaqComercialWebsite";
 
 const MoreInfonWebs = () => {
   return (
-    <section className="flex justify-wrap flex-col md:flex-col items-center px-10 bg-pale-black  pt-20 gap-10 ">
-      <div className="flex flex-col-reverse md:flex-row-reverse gap-10 ">
-        <div className="flex-1 justify-center">
-          <img
-            src={offer}
-            width={773}
-            height={687}
-            className="object-contain w-full"
-          />
-        </div>
-        <div className="flex flex-1  text-center md:text-left flex-col">
-          <h2 className="mt-10 font-palanquin capitalize text-sky-blue text-4xl font-bold lg:max-w-lg">
-            Páginas
-            <span className="text-primary"> webs para </span>
-            Comerciantes
-          </h2>
-
-          <p className="mt-4 lg:max-w-lg info-text">
+    <section className="flex justify-wrap flex-col md:flex-col items-start border-t border-sky-blue ">
+      <div className="flex flex-col-reverse justify-start items-start text-center  md:flex-row-reverse gap-10  ">
+   
+        <div className="flex  my-4   md:text-left flex-col">
+      
+          <p className="w-full  info-text  ">
             Las páginas webs para comerciantes están diseñadas específicamente
             para comercios locales. Estas soluciones permiten dar un pequeño
             paso hacia la digitalización de tu negocio, ayudándote a
@@ -42,7 +30,7 @@ const MoreInfonWebs = () => {
 
         
       </div>
-      <div className="mt-11 flex flex-wrap gap-4">
+      <div className="mt-11 flex  m-auto flex-wrap gap-4">
           <FaqComercialWebsite />
         </div>
     </section>

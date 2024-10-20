@@ -11,7 +11,7 @@ const PopularProductCard = ({ imgURL, name, price, services }) => {
 
   return (
     <div className='flex flex-1 flex-col w-full border-md max-sm:w-full'>
-      <img src={imgURL} alt={name} className='w-[280px] h-[180px]  rounded-xl' />
+      <img src={imgURL} alt={name} className='w-[340px] h-[200px]  rounded-xl' />
       
       {/* Mostrar el enlace "Más Información" solo si el nombre es "web comercial" */}
       {name === 'Web Comerciantes' && (
@@ -38,14 +38,16 @@ const PopularProductCard = ({ imgURL, name, price, services }) => {
             {isOpen ? <FaChevronUp /> : <FaChevronDown />}
           </button>
 
-          {/* Lista desplegable de servicios */}
-          {isOpen && (
-            <ul className='mt-2 list-disc list-inside text-white'>
-              {services.map((service, index) => (
-                <li key={index}>{service}</li>
-              ))}
-            </ul>
-          )}
+          {/* Lista desplegable de servicios con animación */}
+          <ul 
+            className={`mt-2 list-disc list-inside text-white overflow-hidden transition-max-height duration-500 ease-in-out ${
+              isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+            }`}
+          >
+            {services.map((service, index) => (
+              <li key={index}>{service}</li>
+            ))}
+          </ul>
         </div>
       )}
     </div>

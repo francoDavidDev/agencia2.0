@@ -35,7 +35,7 @@ const Nav = () => {
                     Servicios
                   </span>
                   {showServices && (
-                    <ul className="absolute left-0 h-auto  w-48 bg-white shadow-lg flex flex-col z-10">
+                    <ul className="absolute left-0 h-auto  w-48 bg-white shadow-lg flex flex-col z-20">
                       {item.servicios.map((service) => (
                         <li key={service.name}>
                           <Link
