@@ -4,10 +4,8 @@ import { shoe8 } from "../assets/images"; // Cambiar por una imagen relevante al
 import MoreInfoComunityManager from "./MoreInfoComunityManager";
 
 const SuperQuality = () => {
-  // Estado para controlar la visibilidad del componente MoreInfoComunityManager
   const [showMoreInfo, setShowMoreInfo] = useState(false);
 
-  // Función para alternar la visibilidad del componente
   const toggleMoreInfo = () => {
     setShowMoreInfo(!showMoreInfo);
   };
@@ -18,8 +16,8 @@ const SuperQuality = () => {
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
       <div className="flex w-full flex-wrap flex-col md:flex-row gap-10">
-        <div className="flex-1">
-          <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl font-bold lg:max-w-lg">
+        <div className="flex-1 text-center md:text-left">
+          <h2 className="mt-10 font-palanquin capitalize text-primary text-4xl md:text-5xl font-bold lg:max-w-lg">
             Servicio de
             <span className="text-sky-blue"> Community Manager</span>
           </h2>
@@ -36,7 +34,7 @@ const SuperQuality = () => {
             seguidores en clientes y a mantener una presencia constante en
             plataformas clave, impulsando así la rentabilidad de tu negocio.
           </p>
-          <div className="mt-11 md:justify-center  flex flex-wrap gap-4">
+          <div className="mt-11 md:justify-center flex flex-wrap gap-4 justify-center">
             <Button
               label="Contáctanos"
               path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}

@@ -4,10 +4,8 @@ import { coffeeShop } from "../assets/works";
 import MoreInfonWebs from "./MoreInfonWebs";
 
 const WebComerciantes = () => {
-  // Estado para controlar la visibilidad del componente MoreInfonWebs
   const [showMoreInfo, setShowMoreInfo] = useState(false);
 
-  // Función para alternar la visibilidad del componente
   const toggleMoreInfo = () => {
     setShowMoreInfo(!showMoreInfo);
   };
@@ -17,9 +15,9 @@ const WebComerciantes = () => {
       id="web_comerciantes"
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
-      <div className="flex flex-column flex-wrap sm:flex-row w-full gap-10">
-        <div className="flex-1">
-          <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl lg:max-w-xl">
+      <div className="flex flex-column flex-wrap sm:flex-row w-full  gap-10">
+        <div className="flex-1 text-center sm:text-left">
+          <h2 className="mt-10 font-palanquin capitalize text-primary text-4xl md:text-5xl font-bold lg:max-w-lg">
             Webs
             <span className="text-sky-blue"> para </span>
             <span className="text-sky-blue"> Comerciantes</span>
@@ -36,18 +34,18 @@ const WebComerciantes = () => {
             que puedas gestionar tus productos, recibir pedidos online y crecer
             en el mundo digital.
           </p>
- 
+
           <h3 className="text-sky-blue font-bold text-3xl md:text-4xl py-10">
             $50.000
           </h3>
- 
-          <div className="mt-11 md:justify-center  flex flex-wrap gap-4">
+
+          <div className="mt-11 md:justify-center flex flex-wrap gap-4 justify-center">
             <Button
               label="Contáctanos"
               path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
             />
             <button
-              onClick={toggleMoreInfo} // Añadimos el evento onClick
+              onClick={toggleMoreInfo}
               className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-white text-sky-blue rounded-full hover:text-white hover:bg-sky-blue hover:border-white"
             >
               Saber más
@@ -57,13 +55,9 @@ const WebComerciantes = () => {
 
         <div className="flex justify-center flex-col m-auto items-center">
           <p className="text-sky-blue italic underline text-sm py-3">
-            Haz click en la imagen para ver como seria la web para comerciantes
+            Haz click en la imagen para ver como sería la web para comerciantes
           </p>
-          <a
-            target="_blank"
-            href="https://frutocafe.vercel.app/
-  "
-          >
+          <a target="_blank" href="https://frutocafe.vercel.app/">
             <img
               src={coffeeShop}
               alt="Web para Comerciantes"
@@ -79,8 +73,8 @@ const WebComerciantes = () => {
       <div
         className={`w-full overflow-hidden transition-all ease-in-out ${
           showMoreInfo
-            ? "max-h-[100%] opacity-100 duration-500" // Más rápida al abrir
-            : "max-h-0 opacity-0 duration-1000" // Más lenta al cerrar
+            ? "max-h-[100%] opacity-100 duration-500"
+            : "max-h-0 opacity-0 duration-1000"
         }`}
       >
         <MoreInfonWebs />

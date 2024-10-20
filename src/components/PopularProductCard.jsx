@@ -10,12 +10,12 @@ const PopularProductCard = ({ imgURL, name, price, services }) => {
   };
 
   return (
-    <div className='flex flex-1 flex-col w-full border-md max-sm:w-full'>
+    <div className='flex flex-1 flex-col w-full border-md max-sm:w-full items-center'> {/* Alinea al centro */}
       <img src={imgURL} alt={name} className='w-[340px] h-[200px]  rounded-xl' />
       
       {/* Mostrar el enlace "Más Información" solo si el nombre es "web comercial" */}
       {name === 'Web Comerciantes' && (
-        <div className='mt-8 flex justify-start overflow-hidden border-md'>
+        <div className='mt-8 flex justify-center overflow-hidden border-md'> {/* Centrando aquí */}
           <Link to={'/MoreInfoWebs'} className='flex gap-2.5'>
             <FaQuestion className='text-sky-blue mt-2' width={24} height={24} />
             <p className='font-monserrat text-xl leading-normal text-primary hover:underline cursor-pointer'>
@@ -25,15 +25,15 @@ const PopularProductCard = ({ imgURL, name, price, services }) => {
         </div>
       )}
       
-      <h3 className='mt-2 text-2xl leading-normal font-semibold font-palanquin text-white'>{name}</h3>
-      <p className='mt-2 font-semibold font-montserrat text-coral-red text-2lx leading-normal text-white'>{price}</p>
+      <h3 className='mt-2 text-2xl leading-normal font-semibold font-palanquin text-white text-center'>{name}</h3> {/* Centrando aquí */}
+      <p className='mt-2 font-semibold font-montserrat text-coral-red text-2lx leading-normal text-white text-center'>{price}</p> {/* Centrando aquí */}
       
       {/* Botón para desplegar/ocultar servicios */}
       {services && (
         <div className='mt-4'>
           <button 
             onClick={toggleServices} 
-            className='flex items-center gap-2 text-sky-blue font-semibold'>
+            className='flex items-center gap-2 m-auto text-sky-blue font-semibold'>
             {isOpen ? "Ocultar Servicios" : "Mostrar Servicios"}
             {isOpen ? <FaChevronUp /> : <FaChevronDown />}
           </button>
