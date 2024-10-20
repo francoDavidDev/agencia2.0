@@ -17,7 +17,7 @@ const SuperQuality = () => {
       id="comunity_manager"
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
-      <div className="flex w-full flex-wrap flex-col sm:flex-row gap-10">
+      <div className="flex w-full flex-wrap flex-col md:flex-row gap-10">
         <div className="flex-1">
           <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl font-bold lg:max-w-lg">
             Servicio de
@@ -36,7 +36,7 @@ const SuperQuality = () => {
             seguidores en clientes y a mantener una presencia constante en
             plataformas clave, impulsando así la rentabilidad de tu negocio.
           </p>
-          <div className="mt-11 flex flex-wrap gap-4">
+          <div className="mt-11 md:justify-center  flex flex-wrap gap-4">
             <Button
               label="Contáctanos"
               path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
@@ -50,7 +50,7 @@ const SuperQuality = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 justify-center items-center">
+        <div className="flex justify-center flex-col m-auto items-center">
           <img
             src={shoe8} // Cambiar esta imagen por algo relevante al servicio de Community Manager
             alt="Community Management"

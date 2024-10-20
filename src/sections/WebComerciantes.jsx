@@ -36,12 +36,12 @@ const WebComerciantes = () => {
             que puedas gestionar tus productos, recibir pedidos online y crecer
             en el mundo digital.
           </p>
-
-          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">
+ 
+          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl py-10">
             $50.000
           </h3>
-
-          <div className="mt-11 flex flex-wrap gap-4">
+ 
+          <div className="mt-11 md:justify-center  flex flex-wrap gap-4">
             <Button
               label="Contáctanos"
               path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
@@ -55,14 +55,23 @@ const WebComerciantes = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
-          <img
-            src={coffeeShop}
-            alt="Web para Comerciantes"
-            width={570}
-            height={522}
-            className="object-contain rounded-xl"
-          />
+        <div className="flex justify-center flex-col m-auto items-center">
+          <p className="text-sky-blue italic underline text-sm py-3">
+            Haz click en la imagen para ver como seria la web para comerciantes
+          </p>
+          <a
+            target="_blank"
+            href="https://frutocafe.vercel.app/
+  "
+          >
+            <img
+              src={coffeeShop}
+              alt="Web para Comerciantes"
+              width={570}
+              height={522}
+              className="object-contain rounded-xl"
+            />
+          </a>
         </div>
       </div>
 

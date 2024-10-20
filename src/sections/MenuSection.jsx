@@ -15,9 +15,9 @@ const MenuSection = () => {
   return (
     <section
       id="menu_web"
-      className="flex justify-between items-center flex-col gap-10 w-full max-container"
+      className="flex justify-between items-center  flex-col gap-10 w-full max-container"
     >
-      <div className="flex  flex-col flex-wrap sm:flex-row-reverse w-full gap-10">
+      <div className="flex w-full flex-wrap flex-col md:flex-row-reverse gap-10">
         <div className="flex-1">
           <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl font-bold lg:max-w-lg">
             <span className="text-sky-blue"> Menú digital </span>
@@ -29,10 +29,10 @@ const MenuSection = () => {
             clientes la mejor experiencia posible. Aumenta la eficiencia de tu
             restaurante y atrae más clientes con un menú moderno y accesible.
           </p>
-          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">
+          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl py-10">
             $50.000
           </h3>
-          <div className="mt-11 flex flex-wrap gap-4">
+          <div className="mt-11 md:justify-center  flex flex-wrap gap-4">
             <Button
               label="Contáctanos"
               path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
@@ -46,7 +46,7 @@ const MenuSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 justify-center items-center">
+        <div className="flex justify-center flex-col m-auto items-center">
           <img
             src={menuImage} // Cambiar esta imagen por algo relevante a menús web para restaurantes
             alt="Menús Web para Restaurantes"
