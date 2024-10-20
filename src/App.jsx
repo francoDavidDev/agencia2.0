@@ -26,8 +26,8 @@ const App = () => {
             path="/"
             element={
               <>
-<section className="xl:p-1 wide:pr-4 pb-4 bg-pale-black">
-<Hero />
+                <section className="xl:padding-1 wide:padding-r padding-b bg-pale-black">
+                  <Hero />
                 </section>
                 {/* seccion web */}
                 <section className="padding bg-pale-black">
