@@ -4,46 +4,47 @@ import menuImage from "../assets/works/menu-image.png"; // Cambiar por una image
 import MoreInfoMenus from "./MoreInfoMenus";
 
 const MenuSection = () => {
+  // Estado para controlar la visibilidad del componente MoreInfoMenus
+  const [showMoreInfo, setShowMoreInfo] = useState(false);
 
-    // Estado para controlar la visibilidad del componente MoreInfoMenus
-    const [showMoreInfo, setShowMoreInfo] = useState(false);
-
-    // Función para alternar la visibilidad del componente
-    const toggleMoreInfo = () => {
-      setShowMoreInfo(!showMoreInfo);
-    };
+  // Función para alternar la visibilidad del componente
+  const toggleMoreInfo = () => {
+    setShowMoreInfo(!showMoreInfo);
+  };
 
   return (
     <section
       id="menu_web"
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
-      <div className="flex flex-row-reverse w-full gap-10">
-      <div className="flex-1">
-  <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl font-bold lg:max-w-lg">
-    <span className="text-sky-blue"> Menú digital </span>
-    personalizado
-  </h2>
-  <p className="mt-4 lg:max-w-lg info-text text-base md:text-lg">
-    Un menú web no solo facilita el acceso a tu carta, sino que también 
-    permite actualizar platos y precios en tiempo real, ofreciendo a tus 
-    clientes la mejor experiencia posible. Aumenta la eficiencia de tu 
-    restaurante y atrae más clientes con un menú moderno y accesible.
-  </p>
-  <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">$50.000</h3>
-  <div className="mt-11 flex flex-wrap gap-4">
-    <Button
-      label="Contáctanos"
-      path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
-    />
-    <button
-      onClick={toggleMoreInfo} // Añadimos el evento onClick
-      className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-base md:text-lg leading-none bg-white text-sky-blue rounded-full hover:text-white hover:bg-sky-blue hover:border-white"
-    >
-      Saber más
-    </button>
-  </div>
-</div>
+      <div className="flex  flex-col flex-wrap sm:flex-row-reverse w-full gap-10">
+        <div className="flex-1">
+          <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl font-bold lg:max-w-lg">
+            <span className="text-sky-blue"> Menú digital </span>
+            personalizado
+          </h2>
+          <p className="mt-4 lg:max-w-lg info-text text-base md:text-lg">
+            Un menú web no solo facilita el acceso a tu carta, sino que también
+            permite actualizar platos y precios en tiempo real, ofreciendo a tus
+            clientes la mejor experiencia posible. Aumenta la eficiencia de tu
+            restaurante y atrae más clientes con un menú moderno y accesible.
+          </p>
+          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">
+            $50.000
+          </h3>
+          <div className="mt-11 flex flex-wrap gap-4">
+            <Button
+              label="Contáctanos"
+              path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
+            />
+            <button
+              onClick={toggleMoreInfo} // Añadimos el evento onClick
+              className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-base md:text-lg leading-none bg-white text-sky-blue rounded-full hover:text-white hover:bg-sky-blue hover:border-white"
+            >
+              Saber más
+            </button>
+          </div>
+        </div>
 
         <div className="flex flex-1 justify-center items-center">
           <img

@@ -17,43 +17,45 @@ const WebComerciantes = () => {
       id="web_comerciantes"
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
-      <div className="flex w-full gap-10">
-      <div className="flex-1">
-  <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl lg:max-w-xl">
-    Webs
-    <span className="text-sky-blue"> para </span>
-    <span className="text-sky-blue"> Comerciantes</span>
-  </h2>
-  
-  <p className="mt-4 text-white lg:max-w-lg text-sm md:text-base lg:text-lg">
-    Diseñamos páginas web para pequeños comercios, ayudándote a dar el
-    primer paso hacia la digitalización. Mejora tu visibilidad y conecta
-    con más clientes.
-  </p>
-  
-  <p className="mt-6 text-white lg:max-w-lg text-sm md:text-base lg:text-lg">
-    Nuestra plataforma te ofrece una solución simple y accesible para
-    que puedas gestionar tus productos, recibir pedidos online y crecer
-    en el mundo digital.
-  </p>
-  
-  <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">$50.000</h3>
-  
-  <div className="mt-11 flex flex-wrap gap-4">
-    <Button
-      label="Contáctanos"
-      path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
-    />
-    <button
-      onClick={toggleMoreInfo} // Añadimos el evento onClick
-      className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-white text-sky-blue rounded-full hover:text-white hover:bg-sky-blue hover:border-white"
-    >
-      Saber más
-    </button>
-  </div>
-</div>
+      <div className="flex flex-column flex-wrap sm:flex-row w-full gap-10">
+        <div className="flex-1">
+          <h2 className="mt-10 font-palanquin capitalize text-primary text-3xl md:text-4xl lg:max-w-xl">
+            Webs
+            <span className="text-sky-blue"> para </span>
+            <span className="text-sky-blue"> Comerciantes</span>
+          </h2>
 
-        <div className="flex flex-1 justify-center items-center">
+          <p className="mt-4 text-white lg:max-w-lg text-sm md:text-base lg:text-lg">
+            Diseñamos páginas web para pequeños comercios, ayudándote a dar el
+            primer paso hacia la digitalización. Mejora tu visibilidad y conecta
+            con más clientes.
+          </p>
+
+          <p className="mt-6 text-white lg:max-w-lg text-sm md:text-base lg:text-lg">
+            Nuestra plataforma te ofrece una solución simple y accesible para
+            que puedas gestionar tus productos, recibir pedidos online y crecer
+            en el mundo digital.
+          </p>
+
+          <h3 className="text-sky-blue font-bold text-3xl md:text-4xl">
+            $50.000
+          </h3>
+
+          <div className="mt-11 flex flex-wrap gap-4">
+            <Button
+              label="Contáctanos"
+              path={"https://www.instagram.com/visibilidadweb/?hl=es-la"}
+            />
+            <button
+              onClick={toggleMoreInfo} // Añadimos el evento onClick
+              className="flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-white text-sky-blue rounded-full hover:text-white hover:bg-sky-blue hover:border-white"
+            >
+              Saber más
+            </button>
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
           <img
             src={coffeeShop}
             alt="Web para Comerciantes"
