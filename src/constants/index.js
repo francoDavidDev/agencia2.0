@@ -219,21 +219,21 @@ export const footerLinks = [
   {
     title: "Servicios",
     links: [
-      { name: "Desarrollo Web", link: "/" },
-      { name: "Seo", link: "/" },
-      { name: "Comunity Manager", link: "/" },
-      { name: "Logos", link: "/" },
-      { name: "Branding", link: "/" },
+      { name: "Desarrollo Web", link: "webs" },
+      { name: "Seo", link: "seo" },
+      { name: "Comunity Manager", link: "comunity_manager" },
+      { name: "Logos", link: "branding" },
+      { name: "Branding", link: "branding" },
     ],
   },
   {
     title: "Ayuda Sobre",
     links: [
-      { name: "Desarrollo Web", link: "/" },
-      { name: "Seo", link: "/" },
-      { name: "Comunity Manager", link: "/" },
-      { name: "Logos", link: "/" },
-      { name: "Branding", link: "/" },
+      { name: "Desarrollo Web", link: "webs" },
+      { name: "Seo", link: "seo" },
+      { name: "Comunity Manager", link: "comunity_manager" },
+      { name: "Logos", link: "branding" },
+      { name: "Branding", link: "branding" },
     ],
   },
   {

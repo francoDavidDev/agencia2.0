@@ -12,7 +12,7 @@ const SpecialOffer = () => {
 
   return (
     <section
-      id="comunity_manager"
+      id="branding"
       className="flex justify-between items-center flex-col gap-10 w-full max-container"
     >
       <div className="flex w-full flex-wrap flex-col md:flex-row-reverse gap-10">
