@@ -205,7 +205,7 @@ export const services = [
 export const reviews = [
 
   {
-    imgURL: customer2,
+    imgURL: customer1,
     customerName: "Rodrigos Piriz",
     rating: 4.5,
     feedback: "Diseñador Grafico",
