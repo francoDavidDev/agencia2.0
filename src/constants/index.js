@@ -19,6 +19,9 @@ import {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
+  mocks1,
+  mocks2,
+  mocks3,
 } from "../assets/images";
 
 import { pageBussines } from "../assets/works";
@@ -37,16 +40,16 @@ export const navLinks = [
 
 export const shoes = [
   {
-    thumbnail: pageBussines,
-    bigShoe: pageBussines,
+    thumbnail: mocks1,
+    bigShoe: mocks1,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: mocks2,
+    bigShoe: mocks2,
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: mocks3,
+    bigShoe: mocks3,
   },
 ];
 

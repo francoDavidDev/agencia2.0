@@ -1,0 +1,55 @@
+<svg id="ab513004-7a78-4596-a1a3-ad70666caf0b" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .eee1c80b-0a64-45c4-bea1-f33af0d4a30b {
+        fill: none;
+      }
+
+      .eca18865-c347-4557-b959-2647360b4e89 {
+        fill: url(#e4d78160-6782-4fb9-b9a7-4bbf3fb1d829);
+      }
+
+      .ae2e164e-145c-4dc6-a681-8854d6b6dfb4 {
+        clip-path: url(#bf8f282f-3199-49ce-af57-d91f5fc7cb68);
+      }
+
+      .adbca058-bea1-4051-a720-d87dd33f88cf {
+        fill: url(#e1064929-da2b-49c0-b85e-3e4c0ff14b42);
+      }
+
+      .b6511b4a-acd6-4771-b968-658f1460a1d2 {
+        fill: url(#b238ea6a-27a6-4d5f-949d-bf940e95c659);
+      }
+    </style>
+    <linearGradient id="e4d78160-6782-4fb9-b9a7-4bbf3fb1d829" data-name="Degradado sin nombre 30" x1="300" y1="5.76" x2="300" y2="594.24" gradientUnits="userSpaceOnUse">
+      <stop offset="0.59" stop-color="#0496ff"/>
+      <stop offset="0.7" stop-color="#0494fc"/>
+      <stop offset="0.77" stop-color="#048ff4"/>
+      <stop offset="0.83" stop-color="#0387e5"/>
+      <stop offset="0.88" stop-color="#037ad0"/>
+      <stop offset="0.93" stop-color="#026ab5"/>
+      <stop offset="0.97" stop-color="#015795"/>
+      <stop offset="1" stop-color="#00487c"/>
+    </linearGradient>
+    <clipPath id="bf8f282f-3199-49ce-af57-d91f5fc7cb68">
+      <rect class="eee1c80b-0a64-45c4-bea1-f33af0d4a30b" x="5.8" y="5.8" width="588.5" height="588.49" rx="37.1"/>
+    </clipPath>
+    <linearGradient id="e1064929-da2b-49c0-b85e-3e4c0ff14b42" data-name="Degradado sin nombre 42" x1="-33.42" y1="242.57" x2="636.19" y2="242.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0496ff"/>
+      <stop offset="0.23" stop-color="#037ed7"/>
+      <stop offset="0.56" stop-color="#0161a6"/>
+      <stop offset="0.81" stop-color="#004f87"/>
+      <stop offset="0.95" stop-color="#00487c"/>
+    </linearGradient>
+    <linearGradient id="b238ea6a-27a6-4d5f-949d-bf940e95c659" x1="-43.13" y1="365.26" x2="636.19" y2="365.26" xlink:href="#e1064929-da2b-49c0-b85e-3e4c0ff14b42"/>
+  </defs>
+  <g>
+    <rect class="eca18865-c347-4557-b959-2647360b4e89" x="5.8" y="5.8" width="588.5" height="588.49" rx="37.1"/>
+    <g class="ae2e164e-145c-4dc6-a681-8854d6b6dfb4">
+      <g>
+        <path class="adbca058-bea1-4051-a720-d87dd33f88cf" d="M-3,104.6,636.2,515.3V340.8L74.9-19.9C44.4-39.5,3.6-30.2-15.7.6l-7.6,12.1C-42.6,43.6-33.5,85-3,104.6Z"/>
+        <path class="b6511b4a-acd6-4771-b968-658f1460a1d2" d="M-43.1,151.6a21.3,21.3,0,0,0,9.6,17.9L636.2,599.9V550L-11.2,133.9a20.7,20.7,0,0,0-28.7,6.5A21,21,0,0,0-43.1,151.6Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../components/Button";
-import { shoe8 } from "../assets/images"; // Cambiar por una imagen relevante al Community Manager
+import { cominityManager } from "../assets/images"; // Cambiar por una imagen relevante al Community Manager
 import MoreInfoComunityManager from "./MoreInfoComunityManager";
 
 const SuperQuality = () => {
@@ -50,7 +50,7 @@ const SuperQuality = () => {
 
         <div className="flex justify-center flex-col m-auto items-center">
           <img
-            src={shoe8} // Cambiar esta imagen por algo relevante al servicio de Community Manager
+            src={cominityManager} // Cambiar esta imagen por algo relevante al servicio de Community Manager
             alt="Community Management"
             width={570}
             height={522}

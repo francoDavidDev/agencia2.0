@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../components/Button";
-import { coffeeShop } from "../assets/works";
+import {  webComerciantes,
+} from "../assets/images";
 import MoreInfonWebs from "./MoreInfonWebs";
 
 const WebComerciantes = () => {
@@ -59,7 +60,7 @@ const WebComerciantes = () => {
           </p>
           <a target="_blank" href="https://frutocafe.vercel.app/">
             <img
-              src={coffeeShop}
+              src={webComerciantes}
               alt="Web para Comerciantes"
               width={570}
               height={522}
