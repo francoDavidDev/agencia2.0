@@ -10,17 +10,18 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections";
-import Nav from "./components/Nav";
+
 import MenuSection from "./sections/MenuSection";
 import MoreInfoBranding from "./sections/MoreInfoBranding";
 import WebComerciantes from "./sections/WebComerciantes";
 import MoreInfoMenus from "./sections/MoreInfoMenus";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <Router>
       <main className="relative">
-        <Nav />
+        <Header />
         <Routes>
           <Route
             path="/"
