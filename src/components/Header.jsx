@@ -39,7 +39,7 @@ const Header = () => {
         {navMobile ? (
           <RiCloseFill className='text-white text-3xl' />
         ) : (
-          <RiMenu4Fill className='text-primary text-3xl' />
+          <RiMenu4Fill className='text-sky-blue text-3xl' />
         )}
       </div>
 
