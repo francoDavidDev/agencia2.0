@@ -18,16 +18,16 @@ const Hero = () => {
       className="w-full   flex xl:flex-row flex-col bg  justify-center min-h-screen  gap-10 max-container   p-6"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full mx-xl:padding-x pt-28 ">
-        <p className="text-xl font-montserrat text-sky-blue">
+        <p className="text-xl font-montserrat text-primary">
           Creciendo con contenido digital
         </p>
         <h1 className="mt-10 font-palanquin  text-4xl sm:text-8xl mx-sm:text-[72px] max-sm:leading-[82px] font-bold ">
-          <span className="xl:bg-pale-black rounded-lg xl:whitespace-nowrap relative z-10 pr-10 text-primary">
+          <span className="xl:bg-pale-black rounded-lg xl:whitespace-nowrap relative z-10 pr-10 text-sky-blue ">
             Visibilidad Web
           </span>
           
         </h1>
-        <p className="font-montserrat text-sky-blue  text-lg leanding-8 mt-10 mb-14 sm:max-w-sm">
+        <p className="font-montserrat text-primary  text-lg leanding-8 mt-10 mb-14 sm:max-w-sm">
           Supervise sus redes, contenido y negocio para facturar en plataformas
           digitales.
         </p>
