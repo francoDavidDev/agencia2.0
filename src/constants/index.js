@@ -71,7 +71,7 @@ export const products = [
   {
     imgURL: travelWeb,
     name: "Web Basica",
-    price: "$170.000",
+    price: "$230.000",
 
     services: [
       "Hosting 1 mes.",
@@ -90,7 +90,7 @@ export const products = [
   {
     imgURL: starkeFitt,
     name: "Web Premium",
-    price: "$230.000",
+    price: "$300.000",
 
     services: [
       "Hosting 1 año.",
@@ -114,7 +114,7 @@ export const products = [
   {
     imgURL: famf,
     name: "Web Empresarial",
-    price: "$300.000",
+    price: "$375.000",
 
     services: [
       "Hosting 1 año.",
