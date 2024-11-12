@@ -138,7 +138,7 @@ export const products = [
     ],
   },
    /* {
-    name: "Menu´s (Para comercio de comida)  ",
+    name: "Menu´s (Para comercio de comida)   ",
     price: "$100.000",
 
     imgURL: menu,
