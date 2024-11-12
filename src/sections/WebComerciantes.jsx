@@ -37,7 +37,7 @@ const WebComerciantes = () => {
           </p>
 
           <h3 className="text-sky-blue font-bold text-3xl md:text-4xl py-10">
-            $50.000
+            $10.000
           </h3>
 
           <div className="mt-11 md:justify-center flex flex-wrap gap-4 justify-center">
