@@ -1,24 +1,10 @@
 import {
-  facebook,
   instagram,
-  shieldTick,
-  support,
-  truckFast,
-  twitter,
 } from "../assets/icons";
 import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
-  customer1,
+ 
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
+
   mocks1,
   mocks2,
   mocks3,
@@ -29,11 +15,7 @@ import { pageBussines } from "../assets/works";
 export const navLinks = [
   { href: "/", label_english: "Home", label_spanish: "inicio" ,name:'inicio' },
   { href: "#services", label_english: "services", label_spanish: "servicios", name:'servicios' },
-
-
   { href: "#staff", label_english: "staff", label_spanish: "Sobre Nosotros",name:'integrantes' },
-
- 
   { href: "#footer", label_english: "contact", label_spanish: "contacto",name:'contacto' },
 ];
 
@@ -59,12 +41,11 @@ export const statistics = [
   { value: "+3", label: "Seo" },
 ];
 
-import coffeShop from "../assets/works/coffeeShop.png";
+
 import travelWeb from "../assets/works/travelWebReact.png";
 import starkeFitt from "../assets/works/starkeFit.png";
 import famf from "../assets/works/famf.png";
 
-import menu from "../assets/works/menu-card.png";
 
 export const products = [
 
