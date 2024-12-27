@@ -10,7 +10,6 @@ import {
   mocks3,
 } from "../assets/images";
 
-import { pageBussines } from "../assets/works";
 
 export const navLinks = [
   { href: "/", label_english: "Home", label_spanish: "inicio" ,name:'inicio' },
